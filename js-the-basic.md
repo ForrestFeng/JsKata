@@ -222,6 +222,7 @@ Bird.eat = function(){ console.log("Bird eating");}
 eagle.eat();  	// Eagle eating
 ```
 
+```
 var Bird = function Bird(name){
     this.name = name;
 	this.fly = function(){
@@ -244,11 +245,11 @@ var Eagle = function Eagle(name){
 ### JS给已有类型加上新方法
 var s1 = new String('ABC');
 如何给s1加上一个方法sayHello()?
+```
 
 
 
-
-
+```
 JavaScript Prototype Inheritance Diagram (edit on http://asciiflow.com/)
 
 P  = prototype
@@ -296,7 +297,7 @@ C  = constructor
                                                               |  null   |
                                                               +---------+
 
-
+```
 
 
 
